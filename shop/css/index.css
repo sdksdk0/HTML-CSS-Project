@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px auto;
+	padding 0px;	
+}
+ul li{
+	list-style:none;	
+}
+
+body{
+	width:920px;
+	border:5px solid #F69;	
+}
+
+/* 头部样式 */
+#head{
+	width:920px;
+	height:450px;
+}
+#head .head_top{
+	width:100%
+	height:40px;
+	background-color:#C03072;
+}
+
+#head .head_top_img {
+		margin-left:20px;
+		margin-top:5px;	
+		display:block;
+		float:left;
+}
+#head p{
+	color:white;
+	height:40px;
+	text-height:40px;
+	display:block;
+	text-align:right;
+	margin-right:20px;	
+	padding:10px;
+}
+#head a{
+	color:#999;	
+}
+
+#head .head_img{
+	background-color:#EBBCE5;
+	width:100%;
+	height:100px;	
+}
+.head_img_left{
+	float:left;
+	margin:10px 5px 10px 20px;
+}
+.head_img_right{
+	float:right;
+}
+.logo_img_left{
+	margin:10px 0px 30px 20px;
+}
+.logo_img_right{
+	float:right;
+	display:block;
+}
+.logo_img{
+	width:660px;
+	height:250px;	
+	float:left;
+
+}
+#head .nav{
+	clear:both;
+	width:100%;
+	height:37px;
+	background-color:#7E0107;	
+}
+
+#head .nav li{
+	width:145px;
+	float:left;	
+	text-align:center;
+	background-color:#7E0107;
+	line-height:35px;	
+}
+.lastli{
+	width:152px;	
+}
+
+#head .nav li a{
+	text-decoration:none;
+	font-size:12px;	
+}
+#head .nav span{
+	color:#F36;
+	padding-left:50px;	
+}
+
+#head a:hover{
+	color:white;
+}
+
+
+/* 内容样式 */
+#content{
+	width:920px;
+	height:580px;
+}
+
+/*定义左边的样式 */
+#content .left{
+	float:left;
+	width:650px;
+	height:580px;	
+	background-color:#811044;
+}
+.left .left_top  .title{
+	font-size:18px;
+	color:white;
+	margin-left:20px;	
+	margin-top:30px;
+}
+.left .left_top p{
+	font-size:12px;
+	color:white;
+	margin:10px 20px;	
+}
+.left .left_top a{
+	color:#999;
+}
+.left_center{
+	background-color:#900;
+	font-size:18px;
+	color:white;
+	margin-left:20px;	
+	margin-top:30px;
+}
+.left_center p{
+	margin-left:20px;	
+	display:block;
+}
+.left_bottom .one,.two,.three{
+	width:32%;
+	height:200px;
+	float:left;	
+}
+.one{
+	margin-left:20px;	
+}
+.one p,.two p,.three p{
+	width:190px;
+	height:25px;
+	background-color:#C33;
+	margin:10px 5px 10px 0px;
+	color:white;
+	font-size:14px;
+	padding-left:10px;
+	text-height:30px;
+	padding-top:5px;
+}
+.one span,.two span,.three span{
+	font-size:12px;
+	color:white;	
+}
+.one .price,.two .price,.three .price{
+	font-size:14px;
+	color:white;
+	background-color:#811044;	
+	padding-left:0px;
+}
+.one .buy,.two .buy,.three .buy{
+	background-color:#903;
+	color:white;	
+}
+.one a,.two a,.three a{
+	color:#C30;
+	font-size:13px;	
+	margin-left:10px;
+}
+.one a:hover,.two a:hover,.three a:hover{
+	color:white;
+	font-size:13px;	
+}
+
+/*定义右边的样式 */
+#content .right{
+	float:right;
+	width:270px;
+	height:580px;	
+	background-color:#831045;
+}
+.right .right_top{
+	width:220px;
+	height:100px;
+	background-color:#EBBCE5;	
+	margin-top:20px;
+	border:4px solid #EBBCE5;
+}
+
+
+ .right .right_top p,.right .right_center p, .right .right_bottom p{
+	padding-left:10px;
+	background-color:#F33;	
+	color:white;
+}
+ .right .right_top  .text{
+		width:180px;
+		text-height:20px;
+		height:20px;
+		margin-top:10px;
+		margin-left:10px;
+}
+ .right .right_top .search{
+		width:80px;
+		height:20px;
+		text-height:20px;
+		background-color:#ccc;	
+		margin:10px;
+		border-radius:3px;
+}
+
+/*定义右边中间的Categories的样式 */
+ .right .right_center{
+	width:220px;
+	height:280px;
+	background-color:#EBBCE5;	
+	margin-top:20px;
+	border:4px solid #EBBCE5;
+}
+ .right .right_center  ul{
+	 	font-size:12px;
+		padding-left:10px;
+		line-height:20px;	
+ }
+#content ul li{
+	padding-left:20px;	
+	height:20px;
+	text-height:20px;
+	background:url(../images/templatemo_list_icon.gif) no-repeat;
+}
+
+#content li a{
+	text-decoration:none;
+}
+#content li:hover{	
+	background:url(../images/templatemo_list_icon_hover.gif) no-repeat;
+}
+#content a:hover{
+	color:white;
+	text-decoration:none;	
+}
+
+/*定义右边下部的W3C的样式*/
+ .right .right_bottom{
+	width:220px;
+	height:100px;
+	background-color:#EBBCE5;	
+	margin-top:20px;
+	border:4px solid #EBBCE5;
+}
+#content .right .right_bottom img{
+	margin:20px;
+}
+
+/*————————————————————-----------------------------------------------*/
+/*尾部样式 */
+#foot{
+	width:920px;
+	height:60px;
+	background-color:black;
+}
+
+#foot .foot_left{
+	margin:10px 20px 10px 20px;	
+	float:left;
+}
+#foot .foot_right p{
+	font-size:12px;
+	color:white;
+	float:right;
+	height:60px;
+	text-height:60px;	
+	display:block;
+	margin-right:100px;
+	margin-top:20px;
+}
+#foot .foot_right a{
+	color:#F69;	
+}
+#foot .foot_left p{
+	display:block;
+	width:20px;
+	height:38px;
+	border-right:1px solid #999;	
+	float:right;
+}
+
+
+

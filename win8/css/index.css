@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px auto;
+	padding:0px;	
+}
+body{
+	width:2400px;
+	background:url(../images/1.png)	no-repeat;
+	background-color:cover;
+	font-family:"微软雅黑";
+}
+#head,#foot{
+	width:100%;
+	height:40px;
+	font-size:20px;
+	color:#fff;
+	background:#999;	
+	text-align:center;
+	line-height:40px;
+	letter-spacing:10px;
+	/* 相对于网页固定，脱离文档流 */
+	position:fixed;
+	/*透明度 ,取值范围0-1，0是完全透明*/
+	opacity:0.8;
+}
+
+#head{
+	/*脱离文档流之后的绝对定位*/
+	top:0px;    /*自身的上边框距外部上边框的距离 */
+	left:0px;		
+}
+#content{
+	width:95%;	
+	height:740px;
+	margin-top:80px;
+	/* 动画是css3的，所以需要些浏览器的兼容 */
+	animation:start 4s  ease-in 1 normal;
+	-webkie-animation:start 4s ease-in 1 normal;  /*兼容chrom*/
+	-moz-animation:start 4s ease-in 1 normal;   /*兼容firfox*/
+	-ms-animation:start 4s ease-in 1 normal; /*兼容 ie*/
+	
+}
+@keyframes start{
+	0%{
+		transform:translateX(400px);
+		margin-left:0px;
+		opacity:0;
+	}
+	20%{
+		margin-top:100px;
+		margin-left:100px;
+		opacity:0.5;
+	}
+	80%{
+		margin-left:200px;
+		opacity:0.7;
+	}
+	100%{
+		margin-top:80px;
+		margin-left:0px;
+		opacity:1;
+	}
+}	
+
+@-webkit-keyframes  start{
+	0%{
+		-webkie-margin-top:0px;
+		-webkie-margin-left:0px;
+		-webkie-opacity:0;
+	}
+	20%{
+		-webkie-margin-top:100px;
+		-webkie-margin-left:100px;
+		-webkie-opacity:0.5;
+	}
+	80%{
+		-webkie-margin-left:400px;
+		
+	}
+	100%{
+		-webkie-margin-top:80px;
+		-webkie-margin-left:0px;
+		-webkie-opacity:1;
+	}
+}
+
+.col1{
+	width:500px;
+	height:100%;	
+	float:left;
+}
+ul{
+	width:100%;
+	height:100%;
+}
+ul li{
+	list-style:none;
+	float:left;	
+	overflow:hidden;
+	position:relative;  /*相对布局*/	
+}
+
+.li1{
+	width:100%;
+	height:24%;
+	margin-bottom:2%;	
+}
+
+
+.li2{
+	width:49%;
+	height:24%;
+}
+.li3{
+	width:49%;
+	height:24%;
+	margin-left:2%;
+}
+.li4{
+	width:49%;
+	height:24%;
+	margin-top:2%;		
+}
+.li5{
+	width:49%;
+	height:24%;
+	margin-top:2%;	
+	margin-left:2%;
+}
+.li6{
+	width:100%;
+	height:24%;
+	margin-top:2%;	
+}
+.col1 li  div{
+	width:100%;
+	height:100%;
+	position:absolute;  /*绝对布局*/
+	color:white;
+	font-size:20px;
+	text-align:center;
+	line-height:161px;
+	
+	/*  加过渡*/
+	transition:all 0.5s ease-in ;
+}
+
+/*布局*/
+
+.li1 div:first-child{
+	background:url(../images/summer.jpg) no-repeat left center;	
+	background-size:cover;
+}
+.li1 div:last-child{
+	background:url(../images/blue.jpg) no-repeat left center;	
+	background-size:cover;
+	top:100%;
+}
+.li2 div:first-child{
+	background:#6C3;
+}
+.li2 div:last-child{
+	background:#6F3;
+	left:-100%;
+}
+.li3 div:first-child{
+	background:#F90;
+}
+.li3 div:last-child{
+	background:#FC9;
+	bottom:100%;
+}
+.li4 div:first-child{
+	background:#033;
+}
+.li4 div:last-child{
+	background:#FC9;
+	left:100%;
+}
+.li5 div:first-child{
+	background:#9C9;	
+}
+.li5 div:last-child{
+	background:#CC0;
+	top:100%;	
+}
+.li6 div:first-child{
+	background:url(../images/blue.jpg) no-repeat left center;	
+	background-size:cover;	
+}
+.li6 div:last-child{
+	background:url(../images/summer.jpg) no-repeat left center;
+	background-size:cover;
+	right:100%;	
+}
+
+.li1:hover  div{
+	-webkit-transform:translateY(-100%);	
+}
+.li2:hover div{
+	transform:translateX(100%);	
+}
+.li3:hover div{
+	transform:translateY(100%);	
+}
+.li4:hover div{
+	transform:translateX(-100%);	
+}
+.li5:hover div{
+	transform:translateY(-100%);
+}
+.li6:hover div{
+	transform:translateX(100%);		
+}
+
+#foot{
+	bottom:0px;
+	left:0px;	
+}
+
+#foot span{
+	background:url(../images/tree1.png) no-repeat left center;
+	padding-left:30px;	
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px auto;
+	padding:0px;	
+	
+}
+
+body{
+	background-image:url(../images/bg2.jpg) ;
+	background-size:cover;
+	
+}
+.logo{
+	width:251px;
+	height:98px;
+	background-image:url(../images/qzone-login-logo.32.png);
+	background-size:251px 98px;
+	float:left;
+	margin:0px 0px 0px 320px;
+}
+.content{
+	width:419px;
+	height:317px;
+	background-color:#fff;
+	margin:170px 0px 0px 780px;	
+	border:2px solid  #eee;
+}
+.nav{
+	width:100%;
+	height:	50px;
+	border-bottom:2px solid #eee;
+}
+
+.nav span{
+	display:inline-block;  //显示方式为内联块
+	height:45px;
+	line-height:45px;
+	margin-left:80px;	
+}
+.span2{
+	margin-left:140px;	
+	border-bottom:2px solid black;
+	padding-bottom:5px;
+}
+.login{
+	width:419px;
+	height:200px;	
+}
+.login_top{
+	width:272px;
+	margin:40px  auto;	
+}
+.qqdiv,.pwddiv{
+	width:272px;
+	height:42px;
+	margin-bottom:14px;	
+	background:url(../images/loninp.png) no-repeat -2px -2px;
+}
+#qq,#pwd{
+	border:none;	
+	background:none;
+	width:258px;
+	height:18px;
+	padding:12px 0px 12px  14px;
+}
+
+.qqdiv:hover,.pwddiv:hover{
+	background:none;
+	height:40px;
+	border:1px solid  #69F;
+}
+.subdiv{
+	width:100%;
+	height:40px;	
+}
+
+#sub{
+	width:115px;
+	height:35px;
+	line-height:35px;
+	color:white;
+	font-size:18px;
+	
+	background-color:#81CB2D;
+	border:none;
+	border-radius:5px;
+}
+
+ .login_bottom{
+	font-size:12px;
+	margin-right:10px;
+	text-align:right;
+}
+.login_bottom a{
+	color:#666;
+	text-decoration:none;	
+}
+
+.dotted {
+	padding:0px 5px;		
+}
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content{
+		width:867px;
+		height:900px;
+		background-color:white;
+		}
+	 
+ .text{
+	 	margin-left:20px;
+		color:#06F;
+		font-weight:bold;
+		background:url(../images/ico.gif)  no-repeat left center;
+		line-height:16px;
+		margin-top:10px;	
+	}
+
+span{
+	color:black;
+}
+#content ul li{
+	padding-left:20px;
+	font-size:12px;
+}
+#content li p{
+	color:black;
+}
+ #content .re{
+	 clear:both;
+	 display:block;
+	 margin-top:30px;
+	 text-align:center;
+	 font-size:14px;
+ }
+ #content a{
+	display:inline;
+	color:#06f;  
+ }
+ #content a:visited {color: #00FF00}
+ #content a:hover{color:#ff6600; }
+
+
+
+
+
+

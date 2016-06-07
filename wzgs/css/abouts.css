@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+	#content{
+		width:867px;
+		height:900px;
+		background-color:white;
+	}
+	 
+ #content p{
+	 font-size:14px;
+	 padding-left:20px;
+	 padding-right:50px;
+	 line-height:20px;
+	 text-indent:28px;
+ }
+ #content span{
+	color:#00F;  
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

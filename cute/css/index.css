@@ -1,0 +1,324 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px auto;
+	padding:0px;	
+}
+body{
+	width:770px;
+	background:#FCC;
+	border:2px solid #666;
+}
+ul li{
+	list-style:none;	
+}
+a{
+	text-decoration:none;	
+	color:black;
+}
+
+/* 定义头部样式 */
+#head{
+	width:766px;
+	height:190px;
+	background:url(../images/logo_bg.gif) ;	
+}
+#head  embed{
+	width:766px;
+	height:148px;
+	}
+#head ul {
+	height:40px;
+	width:766px;
+	background:#E7E7E7;
+	position:absolute;
+}
+#head ul li{
+	float:left;
+	width:83px;
+	line-height:40px;
+	height:40px;
+	text-align:center;
+	border:1px solid #999;
+	font-family:"微软雅黑";
+	border-top:3px solid #333;
+}
+#head ul li:hover{
+	border:1px solid #C36;	
+	color:#C00;
+	background:url(../images/nav_bg_right.gif)  -50px -50px ;
+	border-radius:3px;
+}
+
+
+
+
+/*中间主体部分样式 */
+#content{
+	width:766px;
+	height:885px;	
+	background:white;
+}
+/*主题内容左边部分*/
+#content .left{
+	width:22%;
+	height:885px;
+	float:left;
+	background:#ffffff;
+	clear:both;
+}
+
+.left .left_content{
+	width:94%;
+	height:765px;
+	border-left:1px solid gray;
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+	background:#EEEEEE;
+	margin-top:-10px;
+}
+
+.left_img_top{
+	background:url(../images/login_bg.jpg) no-repeat;
+	width:95%;
+	height:50px;
+	margin-top:10px;
+	margin-left:3px;
+}
+.left img{
+	margin-top:10px;
+	border:none;	
+}
+.left_img_bottom{
+	margin-left:3px;
+}
+
+.left p{
+	margin-left:10px;
+	font-size:12px;
+	margin-top:10px;
+}
+
+.left_content p span{
+	margin-left:10px;
+	color:black;
+	font-weight:100;
+}
+.left span{
+	display:inline-block;
+	margin-left:10px;
+	font-size:12px;
+	margin-top:10px;
+}
+.left span:hover{
+	color:#F39;	
+}
+
+.left p .username,.left p .pwd{
+	width:85px;
+	height:15px;	
+	border:none;
+	border-bottom:1px solid black;
+	background:#EEEEEE;
+}
+
+.left  .sub,.left .reset{
+	width:45px;
+	height:20px;
+	margin-left:5px;	
+}
+.left .left_img{
+	margin-top:20px;
+	border-left:1px solid #666;
+	border-right:1px solid #666;	
+	
+}
+.left ul{
+
+	margin-left:5px;
+	margin-right:5px;	
+}
+
+.left ul li{
+	width:110px;
+	color:black;
+	margin-left:20px;
+	border-bottom:1px solid gray;	
+	font-size:13px;
+	padding-top:5px;
+}
+.left  a:hover{
+	color:#F39;	
+}
+
+/*主题内容右边部分*/
+#content .right{
+	width:78%;
+	height:885px;
+	float:right;
+	background:white;
+}
+.right .right_img{
+	float:left;
+	margin-left:5px;
+	margin-top:10px;	
+}
+.right .recommend_left,.right .recommend_right{
+	width:47%;
+	height:150px;
+	float:left;
+	margin-left:10px;
+	margin-top:5px;
+}
+
+.right .recommend_left img,.right .recommend_right img{
+	float:left;	
+}
+ p img{
+	margin-left:10px;	
+}
+p span{
+	color:red;
+	font-weight:bold;
+	margin-left:20px;
+}
+  .text{
+	font-size:12px;
+	text-indent:20px;
+	line-height:20px;
+}
+ .newprice{
+	color:red;	
+	text-indent:20px;
+}
+.buy{
+	border:none;
+	border:1px solid red;
+	color:red;
+	width:50px;
+	height:20px;	
+	margin-left:15px;
+	float:left;
+}
+
+
+
+.sc{
+	border:none;
+	border:1px solid #999;
+	color:#333;
+	width:50px;
+	height:20px;	
+	margin-left:15px;
+	float:left;
+}
+.sc:hover{
+	color:#F39;	
+}
+
+.right .news{
+	width:70%;
+	float:left;	
+	font-size:14px;
+}
+
+
+.news img{
+	margin-left:10px;
+	margin-top:5px;	
+}
+.aa{
+	width:135px;
+	height:230px;
+	float:left;	
+}
+
+
+.right .sort{
+	width:30%;
+	float:left;
+	background:white;		
+}
+
+.sort img{
+	margin-left:20px;	
+}
+
+.sort_img_bottom{
+	margin-left:20px;
+	border-left:1px solid #F6F;
+	border-right:1px solid #F6F;	
+}
+ol{
+	margin-top:-5px;
+	margin-left:20px;
+	width:148px;
+	border-top:1px solid #F6F;
+	border-left:1px solid #F6F;
+	border-right:1px solid #F6F;
+}
+ol li{
+	font-size:13px;
+	margin-left:25px;
+	height:20px;
+		
+}
+ol li a:hover{
+	color:#F39;	
+	text-decoration:underline;	
+}
+
+
+.sort .more1,.sort .more2{
+	text-align:right;
+	margin-left:20px;
+	font-size:13px;	
+	display:inline-block;
+	width:148px;
+	
+	border-left:1px solid #F6F;
+	border-right:1px solid #F6F;
+}
+
+.more2{
+	border-bottom:1px solid #F6F;
+}
+
+.sort ul li{
+	font-size:13px;
+	margin-left:20px;
+	height:20px;
+	width:128px;
+	padding-left:20px;
+	border-left:1px solid #F6F;
+	border-right:1px solid #F6F;
+}
+.sort ul li a:hover{
+	margin-left:-15px;
+	background:url(../images/b_02.gif) no-repeat;
+	padding-left:15px;
+	color:#F39;	
+}
+
+
+/*定义底部样式 */
+#foot{
+	width:766px;
+	height:40px;
+	background:url(../images/footer_bg.gif) repeat-x;	
+	border-top:4px solid #333;
+}
+#foot p{
+	color:#F03;
+	font-size:12px;
+	text-align:center;
+	line-height:40px;
+	height:40px;
+}
+
+
+
+
+
+

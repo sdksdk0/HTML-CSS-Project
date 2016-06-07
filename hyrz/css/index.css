@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px auto;
+	padding:0px;	
+}
+
+body{
+	width:760px;
+	background-image:url(../images/bg.gif) ;
+}
+a{
+	text-decoration:none;	
+}
+
+#head{
+	height:303px;	
+}
+
+/*主内容部分 */
+#content{
+	height:420px;
+}
+#content .sidebar{
+	width:203px;
+	height:420px;
+	float:left;	
+	background:url(../images/sidebar_bg.jpg) repeat-y ;
+}
+.sidebar  ul {
+	margin:10px;
+	padding-left:20px;	
+	font-size:13px;
+}
+.sidebar a{
+	color:black;	
+}
+.sidebar span{
+	width:160px;
+	height:3px;
+	border-bottom:1px solid black;
+	display:block;
+}
+.sidebar .question{
+	font-size:13px;
+	margin:10px;	
+}
+.sidebar p{
+	font-size:13px;
+	margin-left:20px;	
+}
+.sidebar .sub{
+	margin-left:20px;
+	margin-top:10px;	
+}
+.sidebar_bottom_div{
+	width:100%;
+	height:70px;
+}
+
+
+/*新闻部分的样式*/
+#content .news{
+	width:557px;
+	height:420px;
+	float:right;	
+	background:url(../images/news_bg.jpg) repeat-y ;
+}
+
+.news .news_img_top{
+	width:100%;
+	height:80px;
+	background:url(../images/news_header.jpg) no-repeat;
+	float:left;	
+}
+/*新闻左边的样式 */
+.news .news_left{
+	float:left;
+	width:160px;
+	height:283px;	
+	margin-left:45px;
+}
+.news .news_left img{
+	border:4px solid  #C90;
+}
+.news_left p{
+	padding-right:10px;
+	font-size:13px;	
+}
+/*新闻右边的样式 */
+.news .new_right{
+	float:right;
+	width:350px;
+	height:278px;
+	background:url(../images/news_listbg.jpg) no-repeat;
+	margin-top:-15px;
+}
+.new_right ul {
+	font-size:12px;
+	padding-left:30px;	
+	margin-top:15px;
+}
+.new_right ul li{
+	padding-bottom:3px;	
+}
+.new_right a{
+	color:#F90;	
+}
+.new_right span{
+	float:right;
+	margin-right:30px;	
+}
+.news .news_foot{
+	display:block;
+	height:35px;
+	text-align:center;
+	text-height:35px;
+	font-size:14px;
+	color:#C90;	
+	background:url(../images/news_call.jpg) no-repeat;
+	clear:both;
+	margin-left:30px;
+	padding-top:5px;
+}
+
+
+/*pic的样式*/
+#pics{
+	height:256px;
+	background:url(../images/pics_bg.jpg);	
+}
+#pics .pics_left{
+	margin-top:5px;
+	float:left;
+}
+
+#pics .pic_right_top{
+	width:660px;
+	height:150px;	
+	float:right;
+	margin-top:5px;
+}
+.pic_right_top img{
+	margin-top:10px;	
+	border:4px solid #FF0;
+	margin-right:10px;
+}
+.pic_right_top span{
+	font-size:13px;
+	color:#930;	
+	dispaly:display;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+.pic_right_bottom{
+	width:660px;
+	float:right;
+	background:url(../images/pics_more.jpg) no-repeat;	
+	margin-right:20px;
+}
+.pic_right_bottom  .list1,.pic_right_bottom  .list2{
+	float:left;
+	width:290px;
+	font-size:12px;
+	color:#960;
+	padding-left:5px;	
+	margin-top:10px;
+	margin-left:20px;
+}
+.pic_right_bottom  .list1 ul li,.pic_right_bottom  .list2 ul li{
+	hight:20px;
+	text-height:20px;
+	padding-bottom:2px;
+}
+.pic_right_bottom  span{
+	color:black;
+	text-align:right;	
+	float:right;
+}
+
+/*con样式*/
+#con{
+	clear:both;
+	height:380px;
+	background:#FF9;
+}
+#con .con_left,.con_center,.con_right{
+	width:33%;
+	height:373px;
+	float:left;
+	background:red;
+	background:url(../images/tearoom_bg.jpg);	
+}
+#con ul {
+	font-size:13px;	
+	color:#990;
+	margin-left:30px;
+}
+#con  ul li{
+	padding-top:1px;	
+}
+ .con_bottom_img{
+	 width:100%;
+	 height:45px;
+ }
+
+/*底部样式*/
+#foot{
+	height:66px;
+	background:url(../images/footer.jpg);	
+}
+#foot p{
+	height:66px;
+	text-height:66px;
+	font-size:12px;
+	color:black;
+	display:block;
+	text-align:center;
+	padding-top:25px;
+	clear:both;	
+}
+
+
+
+
+
+
+
+
+
+

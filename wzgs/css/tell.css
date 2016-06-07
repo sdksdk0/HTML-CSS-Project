@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+	#content{
+		width:867px;
+		height:490px;
+		background-color:white;
+	}
+	 
+ #content p{
+	 font-size:16px;
+	 padding-left:20px;
+	 padding-right:50px;
+	 line-height:20px;
+ }
+  #content textarea{
+	 margin-left:20px;
+ }
+ 
+ #content .sendemail{
+	margin-top:10px;
+ }
+ #content .submit{
+	 width:70px;
+	 height:25px;
+	 color:#666;
+	 cursor:pointer;
+	 background:#fff;
+	 border:1px solid #ccc;
+ }
+ #content .submit:hover{
+	 background:#eee;
+ }
+ 
+ 

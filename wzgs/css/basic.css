@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+/* 清除浏览器的默认样式 */
+	*{
+		margin:0 auto;
+		padding:0;
+	}
+	/*通用样式*/
+	 ul li{
+		list-style:none;	
+	}
+	a{
+		text-decoration:none;
+	}
+	
+	body{
+		width:867px;
+		background:#2c383e  url(../images/bgindex.jpg) repeat-x;
+		}
+	#head{
+		width:867px;
+		height:323px;
+		}
+	#head embed{
+		width:867px;;
+		height:323px;	
+	}
+	
+	#nav{
+		width:867px;
+		height:51px;
+		background:url(../images/linkbg.jpg)  repeat-x;
+		}
+		
+	#nav ul li{
+		float:left;
+		width:124px;
+		text-align:center;	
+		height:51px;
+		line-height:51px;	
+		background:url(../images/linkr.gif)  no-repeat  right center;
+	}
+	#nav ul li a{
+		color:white;
+	}
+	#nav .lastli{
+		width:123px;
+	}
+	#nav .main-menu:hover{
+		color:yellow;
+		text-decoration:none;
+		font-size:18px;
+		font-weight:bold;		
+	}
+	
+	.menu{
+		width:280px;
+		 height:900px;
+		 float:left;
+	 }
+ 
+ #content embed{
+	 width:280px; 
+	 margin-top:20px;
+ }
+ 
+ .detal{
+	 width:587px;
+	 height:900px;
+	 float:right;
+	 background:url(../images/weline.gif) repeat-y left center;
+ }
+ #content  img{
+	 margin-left:20px; 
+	 margin-top:20px;
+ }
+	#foot{
+		width:867px;
+		height:110px;
+		background:url(../images/footer1.gif)  repeat-y;
+	}
+	#foot img{
+		padding-top:10px;	
+	}
+	#foot p{
+		text-align:right;
+		color:#ccc;
+		font-size:10px;
+		padding:10px 10px;
+	}
+	
+	

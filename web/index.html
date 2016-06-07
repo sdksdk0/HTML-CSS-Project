@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>朱培的个人主页</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<!----menu_script---->
+    <script src="./js/jquery.min.js"></script>
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<div class="header_bg">
+	<!---start-wrap---->
+<div class="wrap">
+	<!-----start-header----->
+	<div class="header">	
+		<div class="logo">
+			<a href="index.html"><img src="./images/logo1.png" title="logo" /></a>
+		</div>	
+	<div class="cssmenu">
+			<ul>
+				<li class="active"><a href="index.html">首页</a></li>
+				<li><a href="shop.html">购物网</a></li>
+				<li><a href="hyrz.html">火影</a></li>
+				<li><a href="cute.html">可爱屋</a></li>
+				<li ><a href="wzgs.html">温州广厦</a></li>
+				<li><a href="win8.html">win8</a></li>
+					<div class="clear"> </div>
+			</ul>
+	</div>
+	
+		<div class="clear"></div>
+		<div class="top-nav">
+		
+		</div>
+	<div class="clear"></div>
+	</div>
+</div>
+</div>
+		<div class="header_bottom">
+		</div>
+		<!-----end-header-------->
+		<div class="footer-box">
+	    <div class="wrap">
+	     	<h4 class="f-head">
+				YOU KNOW
+			</h4>	
+	        <div id="slideshow">
+			 	
+				
+		    <div class="f-desc1" style="display: block;">
+					<p>"其实你找不到错误不代表错误不存在，同样你看不到技术比你牛的人并不代表世界上没有技术比你牛的人!程序员可以让步，却不可以退缩，可以羞涩，却不可以软弱"</p>
+				</div><div class="f-desc1" style="display: none;">
+			 		<p> <pre>                                                                        "我们应该重视团队的精神，一个人作用再大，也不过是一碗水中比较大的一粒水珠而已!"</pre></p>
+					</div></div>
+				<script>
+					$("#slideshow > div:gt(0)").hide();
+					setInterval(function() { 
+					  $('#slideshow > div:first')
+					    .fadeOut(00)
+					    .next()
+					    .fadeIn(500)
+					    .end()
+					    .appendTo('#slideshow');
+					},  3000);
+				</script>
+	  </div>
+	</div>
+		<div class="content-middle">
+		<div class="wrap">
+			<h5 class="head">About Us</h5>
+		       <div class="middle-top">
+				<div class="col_1_of_3 span_1_of_3">
+					<div class="dc-head">
+						<div class="dc-head-img">
+							<a href="#"><img src="./images/pic.jpg" title="dc-name"></a>
+						</div>
+						<div class="dc-head-info">
+							<h3>我的博客</h3>
+							<span>csdn博客准专家</span>
+						</div>
+						<div class="clear"> </div>
+						<div class="dc-profile">
+							<p>csdn博客频道，这里有我的精彩文章，安卓，大数据，java等，欢迎暖贴</p>
+							<button class="btn btn-6 btn-6a"><a href="http://blog.csdn.net/sdksdk0" >了解更多</a></button>
+						</div>
+					</div>
+				</div>
+				<div class="col_1_of_3 span_1_of_3">
+					<div class="dc-head">
+						<div class="dc-head-img">
+							<a href="#"><img src="./images/pic1.jpg" title="dc-name"></a>
+						</div>
+						<div class="dc-head-info">
+							<h3>我的github</h3>
+							<span>项目托管</span>
+						</div>
+						<div class="clear"> </div>
+						<div class="dc-profile">
+							<p>我的GITHUB频道，里面有非常的的项目案例和源码，欢迎访问</p>
+							<button class="btn btn-6 btn-6a"><a href="https://github.com/sdksdk0" >点击进入</a></button>
+						</div>
+					</div>
+				</div>
+				<div class="col_1_of_3 span_1_of_3">
+					<div class="dc-head">
+						<div class="dc-head-img">
+							<a href="#"><img src="./images/pic2.jpg" title="dc-name"></a>
+						</div>
+						<div class="dc-head-info">
+							<h3>天方官网</h3>
+							<span>天方形田科技</span>
+						</div>
+						<div class="clear"> </div>
+						<div class="dc-profile">
+							<p>网站正式上线于2015年6月，工信部备案，欢迎访问。</p>
+							<button class="btn btn-6 btn-6a"><a href="http://www.tianfang1314.cn" >点击进入</a></button>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div> 
+		   </div>
+		</div>
+	</div>
+	<!----start footer------>
+			<div class="footer">
+			<div class="wrap">
+			
+		</div>
+		</div>
+		<!-- scroll_top_btn -->
+		<script type="text/javascript" src="./js/move-top.js"></script>
+		<script type="text/javascript" src="./js/easing.js"></script>
+	    <script type="text/javascript">
+			$(document).ready(function() {
+			
+				var defaults = {
+		  			containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+		 		};
+				
+				
+				$().UItoTop({ easingType: 'easeOutQuart' });
+				
+			});
+		</script>
+		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+		<!--end scroll_top_btn -->
+		<div class="copy-right">
+			<p>版权所有 &copy;天方旗下<a href="http://www.tianfang1314.cn/">指令汇科技 </a></p>	    
+		</div>
+</body>
+</html>
